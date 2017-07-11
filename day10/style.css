@@ -1,0 +1,30 @@
+.click{
+    color:red;
+    font-size: 8rem;
+}
+
+.block {
+    height:100px;
+    width:100px;
+    background-color: blue;
+    margin:10px;
+    color:white;
+    font-size: 4rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#block-target {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+p {
+    font-size: 3rem;
+}
+.blue {
+    color: blue;
+    
+}
+

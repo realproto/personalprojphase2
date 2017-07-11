@@ -1,0 +1,28 @@
+.red{
+    color:red;
+}
+
+.content{
+    overflow: hidden;
+    border:2px solid red;
+    transition:1s;
+    
+    min-height: 50px;
+}
+
+
+.hidden{ /* This is the bootstrap hidden class not jQuery */
+    height:1px;
+}
+
+.ian-hidden{
+    min-height: 0px;
+    height:0px;
+}
+#roll{
+    transition:2s;
+}
+
+.roll{
+    transform: rotate(720deg);
+}

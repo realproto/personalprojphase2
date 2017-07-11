@@ -1,0 +1,59 @@
+* {
+    width: auto;
+    margin: 0;
+}
+.container {
+    display: flex;
+    
+    
+}
+
+.row {
+  /*flex-direction: border;*/
+  /*justify-content: align-items;*/
+  /*height: 300px;*/
+  /* margin: auto;  may not be needed. Without it you can use the very edge of the screen.*/
+  border: 3px solid rgb(22, 77, 100);
+ 
+}
+.row div {
+    display:flex;
+    flex-wrap:wrap;
+     
+    /* justify-content: space-around; /* center what is in the child div of that row */
+}
+p {
+    width: 300px;
+}
+.mine {
+    border:2px dotted red;
+}
+
+.img1 { 
+    background-image: url("../img/panda_bear.jpg");
+    background-repeat: no-repeat
+}
+.img2 {
+    background-image: url("../img/panda_bear.jpg");
+}
+.img3 {
+    background-image: url("../img/panda_bear.jpg");
+}
+.img4 {
+    background-image: url("../img/panda_bear.jpg");
+}
+
+/* .img-responsive {
+    max-height: 100%;
+    height: auto;
+    display: block;
+}
+ display:flex;
+    flex-wrap:wrap;
+    flex-direction: border;
+    justify-content:center;
+    align-items:center;
+ 
+
+
+*/

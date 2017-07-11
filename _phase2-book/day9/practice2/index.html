@@ -1,0 +1,28 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+    <style>
+     a.test {
+        font-weight: bold;
+     }
+    </style>
+</head>
+<body>
+    <a href="http://jquery.com/">This is my message to you.</a>
+    <script src="jquery.js"></script>
+<script>
+$( "a" ).click(function( event ) {
+ 
+    event.preventDefault();
+ 
+    $( this ).hide( "slow" );
+ 
+});
+</script>    
+
+
+</body>
+
+
+</html>

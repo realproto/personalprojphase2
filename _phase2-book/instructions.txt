@@ -1,0 +1,7 @@
+Create a media query that will display the page differently below 600px. In that media querie, make changes such that:
+
+1. The cards display at full width
+2. The banner reduces in size
+3. All fonts get 50% bigger
+4. All the pictures are replaced with their full quality versions (the current ones have '_lo' at the end)
+5. Hide the navigation bar items and make it so that the mobile-nav is the only one showing.

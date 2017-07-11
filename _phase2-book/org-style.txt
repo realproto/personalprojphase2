@@ -1,0 +1,106 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+html {
+	font-family: sans-serif;
+}
+
+body {
+	min-height: 100vh;
+	width:100vw;
+}
+
+nav {
+	display:flex;
+	justify-content: space-between;
+	padding:10px;
+
+}
+
+.nav-group {
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-item {
+	margin:10px;
+	padding:10px;
+	border:2px solid black;
+
+}
+
+.mobile-nav {
+	display: none;
+}
+
+.banner {
+	background-color: blue;
+	color:white;
+	height:300px;
+	margin-bottom:10px;
+
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 4rem;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card {
+	border: 2px solid black;
+	padding:10px;
+	margin:10px;
+	width:200px;
+	text-align: center;
+}
+
+.card-image {
+	height:200px;
+	border:2px dotted red;
+	margin-bottom: 10px;
+	background-position: cover;
+	background-position: center center;
+}
+
+footer {
+	width:100%;
+	background-color: red;
+	text-align:center;
+	height:50px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.card-image-1 {
+	background-image: url(images/brown_bear_lo.jpg);
+}
+
+.card-image-2 {
+	background-image: url(images/polar_bear_lo.jpg);
+}
+
+.card-image-3 {
+	background-image: url(images/black_bear_lo.jpg);
+}
+
+.card-image-4 {
+	background-image: url(images/sun_bear_lo.jpg);
+}
+
+.card-image-5 {
+	background-image: url(images/sloth_bear_lo.jpg);
+}
+
+.card-image-6 {
+	background-image: url(images/panda_bear_lo.jpg);
+}

@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+    
+  /*  border:2px dashed black; */
+}
+.modal-footer {
+    background-color: red;
+}
+
+
+/*https://farm5.staticflickr.com/4040/4483183856_b00913fdbc.jpg*/
+
+/*https://farm2.staticflickr.com/1335/1469640249_7c5f58d665.jpg*/
+
+.carousel-image {
+    height:300px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.image-1 {
+    background-image: url(https://farm5.staticflickr.com/4040/4483183856_b00913fdbc.jpg);
+}
+
+.image-2 {
+    background-image: url(https://farm2.staticflickr.com/1335/1469640249_7c5f58d665.jpg);
+    background-position: center top;
+}
+
+.carousel-image-container {
+    height: 300px;
+    text-align: center;
+}
+
+.carousel-image-container img {
+    height: 300px;
+    display: block;
+    margin:auto;
+}
